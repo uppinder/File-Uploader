@@ -1,5 +1,10 @@
 /*CSS File For loginform.php webpage*/
-#body-color{
+body 
+{
+	background: linear-gradient(90deg, #005C97 10%, #363795 90%);
+}
+#body-color
+{
 background-color:#6699CC;
 }
 #Sign-In{
