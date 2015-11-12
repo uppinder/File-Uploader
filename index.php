@@ -24,9 +24,9 @@ $(window).resize(function(){window.location.href=window.location.href})
   <style type="text/css">
   #upload_box
    {
-   		margin-top: 10%;
-   		margin-left: 10%;
-   		width:350px;
+   		margin-top: 9%;
+   		margin-left: 34%;
+   		width:26%;
    		height:450px;
    		border-radius: 10px;
    		border:1px solid #FFFFFF;
