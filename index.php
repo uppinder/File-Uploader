@@ -4,23 +4,34 @@
   <title>File Uploader</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">-->
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script type="text/javascript">
-  $(window).load(function(){
-$('img.bgfade').hide();
-var dg_H = $(window).height();
-var dg_W = $(window).width();
-$('#wrap').css({'height':dg_H,'width':dg_W});
-function anim() {
-    $("#wrap img.bgfade").first().appendTo('#wrap').fadeOut(1500);
-    $("#wrap img").first().fadeIn(1500);
-    setTimeout(anim, 10000);
-}
-anim();})
+
+<!--Background changer-->
+<script type="text/javascript">
+
+	$(window).load(function(){
+	$('img.bgfade').hide();
+	var dg_H = $(window).height();
+	var dg_W = $(window).width();
+	$('#wrap').css({'height':dg_H,'width':dg_W});
+	function anim() {
+    		$("#wrap img.bgfade").first().appendTo('#wrap').fadeOut(1500);
+	    $("#wrap img").first().fadeIn(1500);
+   	 setTimeout(anim, 10000);
+		}
+	anim();
+	}
+)
+
 $(window).resize(function(){window.location.href=window.location.href})
+
 </script>
+
+
   <style type="text/css">
   #upload_box
    {
@@ -52,29 +63,32 @@ $(window).resize(function(){window.location.href=window.location.href})
   top:0; 
   left:0; 
    background-color:black;
-  }
-#wrap img.bgfade
-{
+  } 
+  #wrap img.bgfade
+  {
   position:absolute;
   top:0;
   display:none;
   width:100%;
   height:100%;
   z-index:-1;
-}
+  }
     #header a:hover,#header a:focus, li > a:hover , li > a:focus
     {
     	color: black !important;
     }
 
+
 </style>
 </head>
 <body background="image1.jpg">
+
   <div id="wrap">
-<img class="bgfade" src="image1.jpg">
-<img class="bgfade" src="image2.jpg">
-<img class="bgfade" src="image3.jpg">
+<img class="bgfade" src="images/image1.jpg">
+<img class="bgfade" src="images/image2.jpg">
+<img class="bgfade" src="images/image3.jpg">
 </div>
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid" style="background:white;" >
     <div id="header" class="navbar-header" style="padding-left:20px;">
