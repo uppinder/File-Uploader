@@ -5,7 +5,7 @@ Stuff to do:
 -> Download file page  
 -> Login modal with mysql  
 -> Signup Page  
--> Profile Page  
+-> Profile Page
    - See uploads
    - Upload 
    - Delete uploads
