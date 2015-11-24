@@ -78,6 +78,11 @@ $(window).resize(function(){window.location.href=window.location.href})
     	color: black !important;
     }
 
+  .navbar-inverse
+  {
+    border-bottom-color: #505050;
+  }
+
 
 </style>
 </head>
