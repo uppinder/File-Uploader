@@ -9,6 +9,6 @@ Stuff to do:
    - See uploads
    - Upload 
    - Delete uploads
-   - generate link for uploads  
--> For public sharing, index.php needs a new box for showing all publicly avavailable uploads  
+   - generate link for uploads
+-> For public sharing, index.php needs a new box for showing all publicly available uploads  
 
